@@ -13,7 +13,7 @@ void TabASCII (void)
 		textcolor(corF);
 		textbackground(corT);
 		gotoxy(coluna,linha++);
-		printf("%d-%c",i,i);
+		printf("%d-%c",i,i); 
 		Sleep(10);
 		if(linha > 23)
 		{
